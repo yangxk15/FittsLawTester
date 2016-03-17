@@ -1,2 +1,0 @@
-# idish
-# FittsLawTester
