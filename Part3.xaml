@@ -1,0 +1,20 @@
+﻿<Page x:Class="FittsLawTester.Part3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FittsLawTester"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="1000"
+      Title="Part3">
+
+    <Grid x:Name="Grid">
+        <Label x:Name="Trial" Content="Trial #:" HorizontalAlignment="Left" VerticalAlignment="Top" Height="40" Width="150" FontSize="15pt"/>
+        <Label x:Name="Time" Content="Time:" HorizontalAlignment="Left" Margin="155,0,0,0" VerticalAlignment="Top" Height="40" Width="165" FontSize="15pt"/>
+        <Button x:Name="Start" Content="Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1cm" Height="1cm" Background="Black" Foreground="White" Focusable="False"/>
+        <Button x:Name="Target" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1cm" Height="1cm" Background="Lime" Focusable="False"/>
+        <Button x:Name="Previous" Content="Previous trial" HorizontalAlignment="Left" VerticalAlignment="Bottom" Height="60" Width="200" FontSize="15pt" Click="Previous_Click" Margin="200,0,0,20"/>
+        <Button x:Name="Next" Content="Next trial" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="60" Width="200" FontSize="15pt" Click="Next_Click" Margin="0,0,200,20"/>
+        <Line x:Name="line" Stroke="Red" StrokeThickness="3" StrokeLineJoin="Bevel"/>
+    </Grid>
+</Page>
